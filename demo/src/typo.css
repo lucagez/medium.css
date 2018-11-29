@@ -10,6 +10,7 @@ h1,
 h2,
 p,
 i,
+a,
 .first-letter,
 .authorName a {
   color: rgba(0, 0, 0, 0.84);
@@ -34,12 +35,16 @@ h2 {
   letter-spacing: -0.45px;
 }
 
-p, i {
+p, i, a {
   margin-top: 21px;
   font-family: "Lora";
   font-size: 21px;
   letter-spacing: -0.03px;
   line-height: 1.58;
+}
+
+a {
+  text-decoration: underline;
 }
 
 blockquote {
@@ -49,9 +54,17 @@ blockquote {
   letter-spacing: -0.36px;
   line-height: 44.4px;
   overflow-wrap: break-word;
-  color: rgba(0, 0, 0, 0.68);
   margin: 55px 0 33px 0;
+  /* text-align: center; */
+  color: rgba(0, 0, 0, 0.68);
   padding: 0 0 0 50px;
+}
+
+code {
+  font-size: 18px;
+  background: rgba(0,0,0,.05);
+  border-radius: 2px;
+  padding: 3px 5px;
 }
 
 .highlighted {
@@ -164,6 +177,8 @@ blockquote {
 }
 
 .authorName a {
+  font-size: inherit;
+  font-family: inherit;
   text-decoration: none;
 }
 

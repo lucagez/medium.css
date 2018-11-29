@@ -10,7 +10,7 @@ body
       .image
       .info 
         h1 On Web Typography
-        p.subtitle `Tale of a dev obsessed with typography and readability on the web`
+        p.subtitle `Tale of a dev obsessed with readability on the web`
         .author
           .authorImage
           .authorInfo
@@ -20,33 +20,40 @@ body
     main.article
       p
         | <span class="first-letter">W</span>eb Typography obsessed me. As many others, 
-        | I fell in the trap of optimizing legibility. Definetly not an easy task.
+        | I fell in the trap of optimizing legibility. Definitly not an easy task.
         br
-        | Among all the contenders for the best reading experience around the Web, a name is 
-        | always present and master (?) of the scene: <strong>Medium.com</strong> .
+        | Among all the contenders for the best reading experience on the Web, a name is 
+        | always present and noteworthy: <strong>Medium.com</strong> .
       p
-        | Looking for the arcane secrets that regulates good legibility, I immediately reckon 
-        | that I needed to walk in the footsteps of the greatests. So I started dissecting the rules that
+        | Looking for the arcane secrets that regulates good legibility, I immediately realized 
+        | that I needed to follow in the footsteps of the masters. So I started dissecting the rules that
         | makes <strong>Medium</strong> typography, well, great.
-        br
-        | There were long hours of <strong>tremendous effort</strong>, days and days of <strong>prolonged pains</strong>.
+      p
+        | There were long hours of <strong>tremendous effort</strong>, days and days of <strong>prolonged pains</strong>...
       blockquote
         | Now I want to share with you the results of those long hours 🦋
       h2 An unexpected journey
       p
         | <span class="first-letter">C</span>omes out that nothing is better than a big first letter to super-charge your style.
-        | Rules are simples. A big letter that spans exactly two rows. Play with line-height to get it right.
+        | Rules are simples. A big letter that spans exactly two rows. Play with <code>line-height</code> to get it right.
       h2 The hero
       p
-        | When designing a website you have to take into account fonts for three applications: the <strong>content</strong>, the <strong>UI</strong>, the <strong>brand</strong>.
+        | We all know who the leader is.
+        br
+        | When designing a website you have to take into account fonts for three sectors: the <strong>content</strong>, the <strong>UI</strong>, the <strong>brand</strong>.
+        br
+        | Specifically I found that the best free alternatives <i>(Google Fonts)</i> to the handcrafted fonts that <strong>Medium</strong> uses are respectively <span class="highlighted">Lora</span>,
+        | <span class="highlighted">Montserrat</span> and <span class="highlighted">Playfair Display</span>. 
+        br
+        | I discovered with delight that the last one mimics almost perfectly the effect created especially for <code>blockquote</code>.
       h2 Content font
       p 
-        | The content font should be a serif one, to make our eyes gently brougth from one letter to the other with
+        | The content font should be a serif one, to gently bring your eyes from one letter to the other with
         | the lowest amount of effort.
         br
-        | Line-height and letter-spacing are vital here. Play with those parameters to make the most out of your
-        | font of choice. However at <strong>Medium</strong> you'll find almost an empty line of space in the middle of two lines of text.
-        | Letter-spacing is a little bit on the negative side to make words more compacts.
+        | <code>line-height</code> and <code>letter-spacing</code> are vital here. Play with those parameters to make the most out of your
+        | font of choice. However at <strong>Medium</strong> you'll find almost an empty line of space in the middle of two lines of text (<code>line-height: 1.58;</code>).
+        | While the space between the charachters is kept a little bit on the negative side (<code>letter-spacing: -0.03;</code>) to make words feel more compacts.
       h2 Brand font
       p 
         | The purpose of this font is to enforce the presence of our brand during the navigation experience.
@@ -54,22 +61,26 @@ body
       blockquote Blockquotes, for example 🤫
       h2 UI font
       p 
-        | The font used for alle the UI elements is preferably a sans-serif one. It should create contrast with the content font.
-        | Its color could be a little bit lighter than the one used for the main content. It needs to be readable given the background-color of your page 
+        | The font used for all the UI elements is preferably a sans-serif one. It should create contrast with the content font.
+        | Its color could be a little bit lighter than the one used for the main content. 
+        br
+        | It needs to be readable given the background-color of your page 
         | but not distracting from the main purpose of the page. <span class="highlighted">Reading!</span>
+        br
+        | You can use it also for <code>h2</code> making the titles for your paragraphs. Here the color should be the same as the one used for the main title.
       h2 <span class="highlighted">The highlight</span>
       p
-        | To highlight a word or phrase you can wrap them in a span element and <span class="highlighted">set the background to a color that reminds of your brand color identity</span>.
+        | To highlight a word or phrase you can wrap them in a <code>span</code> element and <span class="highlighted">set the background to a color that reminds of your brand color identity</span>.
       h1 Every Title
       p.subtitle `Needs a subtitle`
       p
-        | Here we find rgba(0, 0, 0, 0.54) to give meaningful informations without grabbing the attention that the title, main charachter, deserves.
+        | Here we find <code>rgba(0, 0, 0, 0.54)</code> to give meaningful informations without grabbing the attention that the title, main charachter, deserves.
       h2 The length
       p.lineLength 
-        | The length of a line of text should never be longer than 740px. So our eyes are not forced to run from left to right on the page. 
+        | The length of a line of text should never be longer than <code>740px</code>. So our eyes are not forced to run from left to right on the page. 
       h2 The color
       p 
-        | The text color should be rgba(0, 0, 0, 0.84) on a rgba(255, 255, 255, 1) background to ensure the best contrast possible.
+        | The text color should be <code>rgba(0, 0, 0, 0.84)</code> on a <code>rgba(255, 255, 255, 1)</code> background to ensure the best contrast possible.
       h2 Conclusion
       p
         | As always, the strict first rule of design is that there are no strict rules.
@@ -82,7 +93,7 @@ body
       p 
         | Happy readings,
         br
-        i Gez
+        i <a href="https://codepen.com/lucagez">Gez</a>
 
 
 
