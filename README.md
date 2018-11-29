@@ -1,15 +1,18 @@
-# Typo.css ✍
+# medium.css ✍
 > a minimal set of typography devoted to Medium.com
 
 ## Installation
 ```sh
-npm install --save typo.css
+npm install --save medium.css
 ```
 
 If you are not using a bundler download the file ```typo.css``` and link it in your html
 
 ## Demo
+live:
 link to codepen
+
+If you want to run the demo locally just clone the repo and run ```npm install``` and ```npm start``` inside /demo directory
 
 ## Why
 I found myself **always** struggling for for a basic set of rules to make a decent reading experience. I find this minimal boilerplate useful for bootstrapping a project with a typography created learning from the best: **Medium.com**.
