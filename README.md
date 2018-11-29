@@ -8,7 +8,7 @@
 npm install --save medium.css
 ```
 
-If you are not using a bundler download the file ```typo.css``` and link it in your html
+If you are not using a bundler download the file ```medium.css``` and link it in your html
 
 ## Demo
 **live:**
