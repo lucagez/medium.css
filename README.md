@@ -1,3 +1,5 @@
+![](./demo/gif/medium.gif)
+
 # medium.css ✍
 > a minimal set of typography devoted to Medium.com
 
