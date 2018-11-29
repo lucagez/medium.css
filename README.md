@@ -3,7 +3,7 @@
 
 ## Installation
 ```sh
-npm install --save typo.css
+npm install --save medium.css
 ```
 
 If you are not using a bundler download the file ```typo.css``` and link it in your html
