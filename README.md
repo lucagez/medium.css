@@ -12,7 +12,7 @@ If you are not using a bundler download the file ```typo.css``` and link it in y
 link to codepen
 
 ## Why
-I found myself always struggling for for a basic set of rules to make a decent reading experience. I find this minimal boilerplate useful for bootstrapping a project with a typography created learning from the best: Medium.com.
+I found myself **always** struggling for for a basic set of rules to make a decent reading experience. I find this minimal boilerplate useful for bootstrapping a project with a typography created learning from the best: **Medium.com**.
 
 ## Usage
 This stylesheet is meant to be only a starting point. So it covers only the basics html elements.
@@ -31,10 +31,10 @@ There are three custom classes:
 - ```.subtitle```, for subtitles 
 
 ## Fonts used
-The Google fonts I found that best mimics the feeling of Medium.com reading experience 
-**Content font**: ```Lora```, serif
-**UI font**: ```Montserrat```, sans-serif
-**Brand font**: ```Playfair Display```, serif
+The Google fonts I found that best mimics the feeling of Medium.com reading experience: 
+- **Content font**: ```Lora```, serif
+- **UI font**: ```Montserrat```, sans-serif
+- **Brand font**: ```Playfair Display```, serif
 
 ## Contributing
 All PRs are welcomed! If you have some ideas on how to extend this stylesheet don't hesitate 😎
