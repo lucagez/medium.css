@@ -9,10 +9,10 @@ npm install --save medium.css
 If you are not using a bundler download the file ```typo.css``` and link it in your html
 
 ## Demo
-live:
-link to codepen
+**live:**
+https://codepen.io/lucagez/full/bQObBe/
 
-If you want to run the demo locally just clone the repo and run ```npm install``` and ```npm start``` inside /demo directory
+If you want to run the demo locally just clone the repo and run ```npm install``` and then ```npm start``` inside /demo directory
 
 ## Why
 I found myself **always** struggling for for a basic set of rules to make a decent reading experience. I find this minimal boilerplate useful for bootstrapping a project with a typography created learning from the best: **Medium.com**.
