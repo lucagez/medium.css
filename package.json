@@ -1,0 +1,24 @@
+{
+  "name": "medium.css",
+  "version": "1.0.0",
+  "description": "a minimal set of typography devoted to Medium.com",
+  "main": "medium.css",
+  "style": "medium.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "LICENSE.md",
+    "medium.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucagez/medium.css.git"
+  },
+  "author": "Luca Gesmundo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucagez/medium.css/issues"
+  },
+  "homepage": "https://github.com/lucagez/medium.css#readme"
+}
