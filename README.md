@@ -1,4 +1,4 @@
-# Typo.css ✍
+# medium.css ✍
 > a minimal set of typography devoted to Medium.com
 
 ## Installation
