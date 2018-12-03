@@ -1,6 +1,6 @@
 {
   "name": "medium.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a minimal set of typography devoted to Medium.com",
   "main": "medium.css",
   "style": "medium.css",
