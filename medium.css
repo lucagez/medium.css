@@ -67,7 +67,7 @@ code {
   padding: 3px 5px;
 }
 
-.highlighted {
+mark, .highlighted {
   background: #7DFFB3;
 }
 
@@ -87,3 +87,5 @@ code {
   color: rgba(0, 0, 0, 0.54);
   margin: 0 0 24px 0;
 }
+
+::selection{background-color: lavender}
