@@ -27,6 +27,7 @@ The elements covered are:
 - ```p```
 - ```a```
 - ```i```
+- ```mark```
 - ```blockquote```
 - ```code```
 
