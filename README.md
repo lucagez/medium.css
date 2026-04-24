@@ -39,7 +39,7 @@ There are three custom classes:
 ## Fonts used
 The Google fonts I found that best mimics the feeling of Medium.com reading experience: 
 - **Content font**: ```Lora```, serif
-- **UI font**: ```Montserrat```, sans-serif
+- **UI font**: ```Lato```, sans-serif
 - **Brand font**: ```Playfair Display```, serif
 
 ## Contributing
